@@ -134,11 +134,6 @@ def button_equal_clicked():
                show_data.set(val)
 
 
-
-
-
-
-
 # Making the screen to see the proceedings
 show_data=StringVar()
 label=Label(root,bg="black",fg="white",borderwidth=4,relief='raised',text="label ",font=("arial","25"),anchor=SE,textvariable=show_data)
@@ -209,77 +204,5 @@ button_equal.pack(side='left',expand=True,fill='both')
 button_divide=Button(button_row_4,text="/",bg="black",fg='deep pink',font=('tahoma','19'),relief = GROOVE,border = 0,command=button_div_clicked)
 button_divide.pack(side='left',expand=True,fill='both')
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-button2=Button(root,text="2")
-
-button3=Button(root,text="3")
-
-button_divide=Button(root,text="/")
-
-button4=Button(root,text="4")
-
-button5=Button(root,text="5")
-
-button6=Button(root,text="6")
-
-button_multiply=Button(root,text="*")
-
-button7=Button(root,text="7")
-
-button8=Button(root,text="8")
-
-button9=Button(root,text="9")
-
-button_subtract=Button(root,text="-")
 
 root.mainloop()
